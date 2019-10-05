@@ -1,0 +1,36 @@
+.main-container {
+    width: 600px;
+    height: 600px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.row {
+    height: 50%;
+}
+
+.row:last-child {
+background-color: bisque;
+display: flex;
+border-top: 1px solid black;
+}
+
+.small-container {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.small-container.right{
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-left: 1px solid black;
+}
+
+.target-div{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}

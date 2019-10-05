@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgreen;
+}
+
+span {
+    font-size: 24px;
+    font-style: italic;
+}
+
+label span {
+    font-size: 30px;
+    color:red;
+}
+
+#contact-form {
+    margin-left: 50px;
+}
+
+.class2.fantastic-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    letter-spacing: 0.3px;
+}
+div.main-page >.fantastic-text.header {
+    letter-spacing: 0.6px;
+}
+
+container.main-page .fantastic-text.header{
+    letter-spacing: 0.8px;
+}
+
+button.button-default {
+    background-color: rgb(96, 2, 247);
+}
+
+button.button-default:hover {
+    background-color: rosybrown;
+}
+
+[type="number"]{
+    border: 4px solid yellow;
+}
+input[type="text"]{
+    border: 4px dashed rgb(86, 1, 245);
+}
+

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700|Lobster&display=swap&subset=cyrillic,cyrillic-ext');
+h1 {
+    font-family: 'Lobster', cursive;
+}
+h2 {
+   font-family: 'Caveat', cursive;
+}
