@@ -80,6 +80,27 @@ body {
     background-color: rgb(192, 217, 255);
 }
 
+.main {
+    margin-left: 20px;
+}
+
+.date {
+    color: #ff0000;
+}
+
+.english {
+    font-size: 20px;
+}
+
+.my_info {
+    margin-left: 120px;
+}
+
+.line {
+    text-decoration:underline;
+
+}
+
 [type="number"]{
     border: 4px solid red;
 
@@ -99,5 +120,10 @@ h3 {
     font-family: 'Pacifico', cursive;
 }
 
+
+.my_table td,th {
+    border: 4px double red; 
+    padding:10px;
+}
 
 
