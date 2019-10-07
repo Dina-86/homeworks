@@ -1,0 +1,42 @@
+.main {
+    width: 800px;
+    /* height: 670px; */
+}
+
+.upper_table {
+    height:70px;
+    border: solid 1px black;
+}
+
+.lower_table {
+    border: solid 1px black;
+    display:flex;
+    height: 600px;
+   
+}
+
+.lower_left_table {
+    border-right: solid 1px black;
+    width: 150px;
+    
+}
+
+.lower_right_table {
+    width: 100%;
+    overflow:scroll;
+}
+
+.message {
+    width:90%;
+    border: solid 2px black;
+}
+
+.round {
+    border-radius: 100%;
+    width: 20%;
+    border: 3px solid red;
+}
+
+.row {
+    display: flex;
+}
