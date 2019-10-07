@@ -70,7 +70,6 @@ body {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
-    
 }
 
 Resources
@@ -93,28 +92,37 @@ body {
 
 .date {
     color:black;
-    margin-left: 22px;
+    margin-left: 20px;
     letter-spacing: 1px;
     font-weight: bold;
+    font-size: 22px;
 }
 
 .english {
     color:black;
-    margin-left: 22px;
+    margin-left: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-weight: bold;
 }
 
 .my_info {
-    margin-left: 60px;
+    /* margin-left: 60px;
+    text-align:left;
+    border: solid 1px red; */
+}
+
+.my_info div {
+    margin-top: 10px;
 }
 
 .line {
     text-decoration:underline;
     color:black;
-    margin-left: 22px;
+    margin-left: 20px;
     letter-spacing: 1px;
     font-weight: bold;
+    font-size: 22px;
 }
 
 [type="number"]{
@@ -140,10 +148,13 @@ h3 {
 }
 
 
+.my_table {
+    margin-left: 20px;
+}
+
 .my_table td,th {
     border: 4px double red;
     padding:10px;
-    margin-left: 20px;
 }
 
 .date1 {
@@ -153,38 +164,48 @@ h3 {
 
 .name {
     color:black;
-    margin-left: 22px;
+    margin-left: 10px;
     letter-spacing: 1px;
     font-weight: bold;
+    font-size: 22px;
+}
+
+.github {
+    margin-left: 10px;
 }
 
 .communication {
     color:black;
-    margin-left: 22px;
+    margin-left: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-weight: bold;
 }
 .money {
     color:black;
-    margin-left: 22px;
+    margin-left: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-weight: bold;
 }
 .criteria {
     color:black;
-    margin-left: 22px;
+    margin-left: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-weight: bold;
 }
 .education {
     color:black;
-    margin-left: 22px;
+    margin-left: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-weight: bold;
 }
 .work {
     color:black;
-    margin-left: 22px;
+    margin-left: 10px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-weight: bold;
 }
