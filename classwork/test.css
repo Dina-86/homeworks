@@ -34,3 +34,7 @@ border-top: 1px solid black;
     width: 50%;
     background-color: red;
 }
+
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(8, 111, 202, 0.5);
+}

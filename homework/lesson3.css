@@ -6,29 +6,37 @@
 .upper_table {
     height:70px;
     border: solid 1px black;
+    font-weight: bold;
+    font-size: 22px;
+    width: 800px;
+    background-color:rgb(211, 203, 203);
 }
 
 .lower_table {
     border: solid 1px black;
     display:flex;
-    height: 600px;
-   
+    height: 530px;
+    width: 800px;
+    overflow: scroll;
 }
 
 .lower_left_table {
     border-right: solid 1px black;
     width: 150px;
-    
+
 }
 
 .lower_right_table {
-    width: 100%;
-    overflow:scroll;
+    width: 650px;
+    width: 530px;
 }
 
 .message {
-    width:90%;
+    width:550px;
     border: solid 2px black;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: normal;
 }
 
 .round {
@@ -39,4 +47,19 @@
 
 .row {
     display: flex;
+}
+
+.date {
+    margin-left: 30px;
+}
+
+.name {
+    margin: 2px;
+}
+
+.people {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px;
+    margin-left: 10px;
 }
