@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+header.container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+nav {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-screen {
+    height: 900px;
+    position: relative;
+}
+.about-me {
+    height: 900px;
+    top: 310px;
+    right: 87px;
+}
+
+footer {
+    height: 473px;
+    background:linear-gradient(45deg, #7a39db, #6048ff);
+}
+.gradient-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+    background: linear-gradient(45deg,#6048ff, #7a39db);
+}
+.first-screen .container {
+    position: relative;
+}
+
