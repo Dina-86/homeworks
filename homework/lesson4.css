@@ -7,8 +7,7 @@
 .my_carousel {
     align:center;
     width: 50%;
-    object-fit: cover;
-    offset-position: center;
+    height: 400px;
 }
 
 .dogs {
@@ -17,10 +16,16 @@
 }
 
 
-.my_card-img-top { 
-    height: 250px;
-} 
+.my_card-img-top {
+    height: 350px;
+}
 
-.my_carousel_img { 
-    height: 250px;
-} 
+.my_carousel_img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.row {
+    margin-top: 10px;
+}
