@@ -5,7 +5,6 @@
 }
 
 .my_carousel {
-    align:center;
     width: 50%;
     height: 400px;
 }
@@ -28,4 +27,11 @@
 }
 .row {
     margin: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 5vw);
+    grid-gap: 15px;
 }
