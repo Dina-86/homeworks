@@ -5,13 +5,13 @@
 }
 
 .my_carousel {
-    width: 50%;
+    width: 90%;
     height: 400px;
 }
 
 .dogs {
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
 }
 
 
@@ -21,17 +21,43 @@
 
 .my_carousel_img {
     height: 400px;
-    width: 500px;
     object-fit: cover;
     object-position: center;
 }
 .row {
     margin: 10px;
+    grid-column-start: 1;
+    grid-column-end: 6;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 5vw);
-    grid-gap: 15px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "carousel carousel carousel carousel carousel carousel navtabs navtabs navtabs navtabs navtabs navtabs "
+    "modal modal modal modal modal modal modal modal modal modal modal modal"
+    "callus callus callus callus callus callus callus callus callus callus callus callus"
+    "cards cards cards cards cards cards cards cards cards cards cards cards";
+}
+
+
+.item-a {
+    grid-area: carousel;
+}
+
+.item-b {
+    grid-area: navtabs;
+}
+
+.item-bb {
+    grid-area: modal;
+}
+.item-bbb {
+    grid-area: callus;
+    display: flex;
+    justify-content: center;
+}
+
+.item-c {
+    grid-area: cards;
 }

@@ -41,7 +41,7 @@ nav {
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg, #7A39DB, #6048FF);
+    background: linear-gradient(45deg, white)
     opacity: .6;
 }
 
@@ -57,5 +57,5 @@ nav {
 
 footer {
     height: 473px;
-    background: linear-gradient(45deg, #7A39DB, #6048FF);
+    background:  #D5DDF5;
 }

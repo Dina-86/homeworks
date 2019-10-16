@@ -50,6 +50,9 @@ h2 {
     overflow-y: auto;
     flex-grow: 1;
     box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:rgb(151, 149, 149);
 }
 
 .target-div :first-child .left_container {
@@ -124,7 +127,7 @@ h2 {
 }
 
 .right_container {
-    background-color:rgb(151, 149, 149);
+    
     padding-left: 10px;
     flex-grow:1;
     box-sizing: border-box;
