@@ -3,17 +3,51 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+
 body {
+    /* width: 1587px; */
     margin: 0;
 }
 
-.container {
-    max-width: 1170px;
-    margin: auto;
+h1 {
+    font-family: Montserrat;
+    font-size: 60px;
+    color: white;
+    font-weight: semi bold;
+    margin: 0;
+    line-height: 75px;
+}
+
+h2 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 36px;
+    font-weight: semi bold;
+    line-height: 50px;
+    margin-top: 180px;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: Montserrat;
+    /* color: white; */
+    font-weight: bold;
+    margin: 0;
+    line-height: 48px;
+    letter-spacing: 0;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: Montserrat;
+    color: black;
+    font-weight: semi bold;
+    margin: 0;
+    line-height: 50px;
 }
 
 header {
-    position: fixed;
+    height: 72px;
     width: 100%;
     z-index: 5;
 }
@@ -24,38 +58,118 @@ header .container {
     align-items: center;
 }
 
+.left-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header a {
+    margin-left:15px;
+}
+
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-header a {
+    margin-right:15px;
+}
+
+.right-header .margin {
+    margin-right:15px;
+}
+
+
 nav {
-    width: 530px;
+    /* width: 900px; */
     display: flex;
     justify-content: space-between;
 }
 
+.nav-link {
+    font-weight: bold;
+    color:black;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+
+input[type="text"]{
+    border: 1px solid;
+    padding: 5px;
+    font-family: Noto Sans;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    width: 159px;
+    height: 34px;
+}
+
+.blue-button {
+    font-family: Montserrat;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    background-color: #2C6AEC;
+    border: 1px;
+    font-size: 20px;
+    font-weight: semi bold;
+}
+
+button {
+    width: 283px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    margin: 25px;
+}
+
+.about-school {
+    position: absolute;
+    top: 145px;
+    left: 116px;
+}
+.about-school h3{
+    color: white;
+}
+
 .first-screen {
-    height: 900px;
     position: relative;
 }
 
-.gradient-back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(45deg, white)
-    opacity: .6;
+.first-section-back {
+    width: 100vw;
 }
 
-.first-screen .container {
-    position: relative;
+    .gradient-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(45deg, black, black);
+        opacity: .6;
+    }
+
+.nav-link:hover {
+    text-decoration:underline;
 }
 
-.about-me {
-    position: absolute;
-    top: 310px;
-    right: 87px;
+.services-about p {
+    font-family: Noto Sans;
+    text-align: center;
+    font-size: 24px;
+    font-weight: medium;
+    line-height: 36px;
+    margin-top: 100px;
 }
 
 footer {
-    height: 473px;
+    height: 498px;
     background:  #D5DDF5;
 }
