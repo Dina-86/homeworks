@@ -160,6 +160,7 @@ button {
     text-decoration:underline;
 }
 
+
 .services-about p {
     font-family: Noto Sans;
     text-align: center;
@@ -167,6 +168,40 @@ button {
     font-weight: medium;
     line-height: 36px;
     margin-top: 100px;
+}
+
+.advantages-left {
+    margin-left: 124px;
+
+}
+
+.advantages-left .text {
+    margin-top: 90px;
+}
+
+.advantages-left p {
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-weight: medium;
+    line-height: 36px;
+}
+
+.advantages-right {
+    font-family: Montserrat;
+    margin-right: 100px;
+}
+
+.advantages-right .text {
+    margin-top: 100px;
+}
+
+.container-advantages {
+    display: flex;
+    /* display: grid; */
+}
+
+.advantages-center {
+    margin-top: 140px;
 }
 
 footer {
