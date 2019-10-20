@@ -24,7 +24,6 @@ h2 {
     font-size: 36px;
     font-weight: semi bold;
     line-height: 50px;
-    margin-top: 180px;
 }
 
 h3 {
@@ -160,6 +159,9 @@ button {
     text-decoration:underline;
 }
 
+.section-name {
+    margin-top: 180px;
+}
 
 .services-about p {
     font-family: Noto Sans;
@@ -204,7 +206,60 @@ button {
     margin-top: 140px;
 }
 
+.courses .container {
+    width: 1587px;
+    height: 804px;
+    background-color: #FF8D3B;
+}
+
+.popular-courses {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 427px;
+    height: 379px;
+    border-radius: 10px;
+    margin-left: 124px;
+    /* margin-top: 226px;  */
+    background-color: white;
+    box-shadow: 0 0 5px;
+}
+
+.about-cards p {
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-weight: medium;
+    line-height: 36px;
+    text-align: center;
+}
+
+.small-text {
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 24px;
+    text-align: center;
+}
+
+.container .blue-button {
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
 footer {
     height: 498px;
     background:  #D5DDF5;
 }
+
