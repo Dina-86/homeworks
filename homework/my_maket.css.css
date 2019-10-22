@@ -15,7 +15,7 @@ h1 {
     color: white;
     font-weight: semi bold;
     margin: 0;
-    line-height: 75px;
+    line-height: 100px;
 }
 
 h2 {
@@ -29,7 +29,6 @@ h2 {
 h3 {
     font-size: 28px;
     font-family: Montserrat;
-    /* color: white; */
     font-weight: bold;
     margin: 0;
     line-height: 48px;
@@ -43,6 +42,11 @@ h4 {
     font-weight: semi bold;
     margin: 0;
     line-height: 50px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
 }
 
 header {
@@ -97,6 +101,16 @@ nav {
     font-family: Montserrat;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link .navigation {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
 
 input[type="text"]{
     border: 1px solid;
@@ -118,14 +132,23 @@ input[type="text"]{
     border: 1px;
     font-size: 20px;
     font-weight: semi bold;
-}
-
-button {
     width: 283px;
     height: 60px;
     border-radius: 10px;
     box-shadow: 0 0 5px;
-    margin: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background-color: rgb(109, 147, 230);
+}
+
+.search {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 0;
 }
 
 .about-school {
@@ -151,41 +174,24 @@ button {
         left: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(45deg, black, black);
+        background-color: black;
         opacity: .6;
     }
-
-.nav-link:hover {
-    text-decoration:underline;
-}
 
 .section-name {
     margin-top: 180px;
 }
 
-.services-about p {
+.about-us p {
     font-family: Noto Sans;
     text-align: center;
     font-size: 24px;
     font-weight: medium;
     line-height: 36px;
-    margin-top: 100px;
-}
-
-.advantages-left {
-    margin-left: 124px;
-
 }
 
 .advantages-left .text {
     margin-top: 90px;
-}
-
-.advantages-left p {
-    font-family: Noto Sans;
-    font-size: 24px;
-    font-weight: medium;
-    line-height: 36px;
 }
 
 .advantages-right {
@@ -199,16 +205,14 @@ button {
 
 .container-advantages {
     display: flex;
-    /* display: grid; */
 }
 
 .advantages-center {
     margin-top: 140px;
 }
 
-.courses .container {
-    width: 1587px;
-    height: 804px;
+.courses {
+    height: 800px;
     background-color: #FF8D3B;
 }
 
@@ -219,14 +223,17 @@ button {
     align-items: center;
 }
 
+.three-courses {
+    display: flex;
+}
+
 .card {
     width: 427px;
     height: 379px;
     border-radius: 10px;
-    margin-left: 124px;
-    /* margin-top: 226px;  */
     background-color: white;
     box-shadow: 0 0 5px;
+    padding: 5px;
 }
 
 .about-cards p {
@@ -237,6 +244,10 @@ button {
     text-align: center;
 }
 
+.big-text {
+    margin-top: 34px;
+}
+
 .small-text {
     font-family: Noto Sans;
     font-size: 16px;
@@ -245,21 +256,25 @@ button {
     text-align: center;
 }
 
-.container .blue-button {
-    justify-content: center;
-    align-items: center;
-}
-
 .price {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 62px;
 }
 
-
-
+.card .blue-button {
+    width: 211px;
+    height: 60px;
+    margin: auto;
+    margin-left: 108px;
+}
 
 footer {
     height: 498px;
     background:  #D5DDF5;
+}
+
+.container .popular-courses {
+     position: relative;
+    text-align: center;
 }
 
