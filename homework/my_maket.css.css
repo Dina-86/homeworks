@@ -145,6 +145,7 @@ input[type="text"]{
     top: 145px;
     left: 116px;
 }
+
 .about-school h3{
     color: white;
 }
@@ -337,6 +338,46 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 
 .our-price h2{
     margin-top: 100px;
+}
+
+
+.price-container {
+    width: 366px;
+    height: 447px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px;
+    padding: 5px;
+}
+.price-container h2 {
+    margin-top: 77px;
+}
+
+.price-container p {
+    margin-top: 28px;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-weight: medium;
+    line-height: 36px;
+}
+
+.image-book {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.price-container .blue-button {
+    margin-left: 73px;
+    margin-bottom: 35px;
+    width: 221px;
+    height: 60px;
+}
+
+.block-courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 footer {
     height: 498px;
