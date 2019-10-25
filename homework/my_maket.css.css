@@ -124,7 +124,7 @@ input[type="text"]{
     width: 283px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: 0 0 5px;
+    box-shadow: 0 0 1px;
     margin-top: 25px;
     cursor: pointer;
 }
@@ -140,23 +140,42 @@ input[type="text"]{
     margin: 0;
 }
 
-.about-school {
-    position: absolute;
-    top: 145px;
-    left: 116px;
-}
-
 .about-school h3{
     color: white;
 }
 
 .first-screen {
     position: relative;
+    height: 548px;
+    overflow: hidden;
+}
+
+.first-screen .container {
+    position: relative;
+    padding: 29px;
+}
+
+.first-screen a {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border: 1px solid white;
+    font-weight: lighter;
+    width: 183px;
+    height: 42px;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 66px;
 }
 
 .first-section-back {
     width: 100vw;
     object-fit: cover;
+    position: absolute;
 }
 
     .gradient-back {
@@ -232,22 +251,20 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     height: 379px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 0 5px;
+    box-shadow: 0 0 3px;
     padding: 5px;
+    padding-top: 38px;
+    position: relative;
+    stroke: gray;
 }
 
-.about-cards p {
+.card p {
     font-family: Noto Sans;
     font-size: 24px;
     font-weight: medium;
     line-height: 36px;
     text-align: center;
 }
-
-.big-text {
-    margin-top: 34px;
-}
-
 
 .small-text {
     font-family: Noto Sans;
@@ -271,6 +288,29 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     height: 60px;
     margin: auto;
     margin-left: 95px;
+    display: block;
+}
+
+.roll {
+    background-color:  #FFAB70;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 310px;
+    opacity: .3;
+}
+
+.roll_one {
+    background-color:  #FFAB70;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: -90px;
+    opacity: .3;
 }
 
 .container .popular-courses {
@@ -354,12 +394,13 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 }
 
 .price-container p {
-    margin-top: 28px;
+    margin-top: 26px;
     text-align: center;
     font-family: Noto Sans;
     font-size: 24px;
     font-weight: medium;
     line-height: 36px;
+    margin-bottom: 10px;
 }
 
 .image-book {
@@ -367,6 +408,17 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     margin-top: 65px;
 }
 
+.image-book-two {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+
+.image-book-three {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: -15px;
+}
 .price-container .blue-button {
     margin-left: 73px;
     margin-bottom: 35px;
@@ -375,14 +427,74 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 }
 
 .block-courses {
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.our-students h2 {
+    margin: 100px;
+}
+
+.review {
+    width: 296px;
+    height: 342px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px;
+}
+
+.big-review {
+    width: 360px;
+    height: 452px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px;
+}
+
+.big-review  .text-people{
+    margin-left: 27px;
+}
+
+.review p {
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.our-students img {
+    margin-top: 24px;
+   margin-left: 80px;
+}
+
+.profession {
+    color: gray;
+}
+
+.big-review .profession {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+}
+
+.text-people {
+    margin-top: 20px;
+}
+
+.cards-carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.our-students {
+    overflow: hidden;
+}
+
 footer {
+    margin-top: 100px;
     height: 498px;
     background:  #D5DDF5;
 }
-
 
 
