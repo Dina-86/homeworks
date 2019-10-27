@@ -1,0 +1,307 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 60px;
+    color: white;
+    font-weight: semi bold;
+    margin: 0;
+    line-height: 100px;
+}
+
+h2 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 36px;
+    font-weight: semi bold;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin: 0;
+    line-height: 48px;
+    letter-spacing: 0;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: Montserrat;
+    color: black;
+    font-weight: semi bold;
+    margin: 0;
+    line-height: 50px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+header {
+    height: 72px;
+    width: 100%;
+    z-index: 5;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header a {
+    margin-left:15px;
+}
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-header a {
+    margin-right:15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-weight: bold;
+    color:black;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.abc {
+    background-color:  white;
+}
+
+input[type="text"]{
+    border: 1px solid;
+    padding: 5px;
+    font-family: Noto Sans;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    width: 159px;
+    height: 34px;
+}
+
+.blue-button {
+    font-family: Montserrat;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    background-color: #2C6AEC;
+    border: 1px;
+    font-size: 20px;
+    font-weight: semi bold;
+    width: 283px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background-color: rgb(109, 147, 230);
+}
+
+.search {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 0;
+}
+
+
+.first-screen {
+    position: relative;
+    height: 548px;
+    overflow: hidden;
+}
+
+.first-screen .container {
+    position: relative;
+    padding: 29px;
+}
+
+.first-screen a {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border: 1px solid white;
+    font-weight: lighter;
+    width: 183px;
+    height: 42px;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 66px;
+}
+
+.first-section-back {
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+}
+
+    .gradient-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: .6;
+     }
+
+/* price */
+
+.our-price h2{
+    margin-top: 100px;
+}
+
+.price-container {
+    width: 366px;
+    height: 447px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px;
+    padding: 5px;
+}
+.price-container h2 {
+    margin-top: 77px;
+}
+
+.price-container p {
+    margin-top: 26px;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-weight: medium;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.image-book {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.image-book-two {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+
+.image-book-three {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: -15px;
+}
+.price-container .blue-button {
+    margin-left: 73px;
+    margin-bottom: 35px;
+    width: 221px;
+    height: 60px;
+}
+
+.block-courses {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    height: 498px;
+    background:  #D5DDF5;
+}
+
+.contact {
+    padding-top: 23px;
+    display:flex;
+}
+
+.contact p {
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-weight: medium;
+    line-height: 36px;
+    margin-top: 35px;
+    margin-left: 27px;
+}
+
+.contact h3 {
+    margin-top: 18px;
+    margin-left: 27px;
+}
+
+.all-section {
+    margin-top: 18px;
+    margin-left: 400px;
+}
+
+.all-section p {
+    line-height: 10px;
+}
+
+.all-trainings {
+    margin-top: 18px;
+    margin-left:100px;
+    text-align: right;
+}
+
+.all-trainings p {
+    line-height: 10px;
+}
+
+.icons {
+    display: flex;
+}
+
+
+.awesome-cbx {
+    display: inline-block;
+    margin: 23px;
+    line-height: 24px;
+    font-size: 20px;
+    margin-left: 0;
+}
+
+
+
