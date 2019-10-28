@@ -1,0 +1,11 @@
+let isburgerClicked = false;
+
+function burgerClick() {
+    if (isburgerClicked) {
+        burger.classlist.remove("is-active");
+    } else {
+        burger.classlist.add("is-active");
+    }
+
+    isburgerClicked = !isburgerClicked;
+}
