@@ -53,12 +53,12 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 .courses {
     height: 760px;
     background-color: #FF8D3B;
+    padding: 1px;
 }
 
-.popular-courses {
-    height: 200px;
-    display: flex;
-    justify-content: center;
+.popular {
+    margin-top: 80px;
+    margin-bottom: 70px;
     align-items: center;
 }
 
@@ -99,9 +99,9 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     margin: 60px;
 }
 
-.price {
+.price h2 {
     text-align: center;
-    margin-top: 62px;
+    /* margin-top: 62px; */
 }
 
 .card .blue-button {
@@ -110,6 +110,7 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     margin: auto;
     margin-left: 95px;
     display: block;
+    text-decoration: none;
 }
 
 .roll {
@@ -134,6 +135,9 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     opacity: .3;
 }
 
+.three-courses {
+    position: relative;
+}
 .container .popular-courses {
     position: relative;
     text-align: center;
@@ -152,12 +156,13 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 49px;
+    margin-top: 30px;
     display:flex;
 }
 
-.big-blue-arrow h3 {
+.big-blue-arrow a {
     color: white;
+    text-decoration: none;
 }
 
 .news h2{
@@ -231,6 +236,7 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 
 .profession {
     color: gray;
+    line-height: 9px;
 }
 
 .big-review .profession {
@@ -246,6 +252,7 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 }
 
 .cards-carousel {
+    width: 1680px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -253,4 +260,5 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 
 .our-students {
     overflow: hidden;
+    padding-bottom: 100px;
 }

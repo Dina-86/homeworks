@@ -1,3 +1,4 @@
+
 .about-course {
     margin-bottom:100px;
 }
@@ -17,7 +18,7 @@
 
 .all-courses {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -54,41 +55,92 @@
 
 .guys {
     position: absolute;
-    margin-left: 700px;
-    margin-top: 200px;
+    right: 160px;
+    top: 1986px;
+    /* left: 700px; */
+    /* top: 200px; */
 }
 
 .teacher-container span {
     display: flex;
     align-content: space-between;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
+.teacher-container span p {
+    margin-top: 10px;
+}
 .teacher-container {
-    width: 366px;
-    height: 447px;
+    width: 280px;
+    height: 350px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 0 5px;
-    padding: 10px;
+    border: 1px solid black;
+    /* padding: 10px; */
 }
+
 .teacher-container h2 {
-    margin-top: 77px;
+    margin-top: 100px;
 }
 
 .teacher-container p {
-    margin-top: 26px;
-    text-align: center;
+    margin-top: 30px;
+    margin-left: 28px;
     font-family: Noto Sans;
     font-size: 24px;
     font-weight: medium;
     line-height: 36px;
-    margin-bottom: 10px;
-    margin-top:20px;
+    /* margin-bottom: 10px; */
 }
 
-.teacher-container .blue-button {
-    margin-left: 73px;
-    margin-bottom: 35px;
-    width: 221px;
-    height: 60px;
+.text-teachers {
+    color: rgb(83, 83, 83);
+    text-align: left;
+    margin-top: 20px;
+}
+
+.our-price h2 {
+    margin-top: 100px;
+}
+
+.good-live {
+    margin-top: 100px;
+    height: 514px;
+    background-color: #FF8D3B;
+}
+
+.good-live .container {
+    padding: 10px;
+    
+}
+
+.good-live h2{
+    color: white;
+    text-align: left;
+    margin-top: 169px;
+    margin-left: 93px;
+    position: relative;
+}
+
+.roll {
+    background-color:  #FFAB70;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    opacity: .3;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 35px;
+}
+
+.roll-two {
+    background-color:  #FFAB70;
+    width: 531px;
+    height: 491px;
+    border-radius: 300px;
+    opacity: .3;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
 }
