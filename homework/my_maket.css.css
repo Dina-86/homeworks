@@ -65,6 +65,7 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 .three-courses {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .card {
@@ -72,11 +73,11 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     height: 379px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 0 3px;
+    box-shadow: 0 0 2px;
     padding: 5px;
     padding-top: 38px;
     position: relative;
-    stroke: gray;
+    stroke: rgb(204, 204, 204);
 }
 
 .card p {
@@ -101,7 +102,7 @@ background: url(./img/Image_advantages.png) no-repeat center center;
 
 .price h2 {
     text-align: center;
-    /* margin-top: 62px; */
+    margin-top: 62px;
 }
 
 .card .blue-button {
@@ -120,8 +121,9 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     border-radius: 100px;
     position: absolute;
     margin-top: -100px;
-    margin-left: 310px;
+    /* margin-left: 310px; */
     opacity: .3;
+    right: 0;
 }
 
 .roll_one {
@@ -135,9 +137,6 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     opacity: .3;
 }
 
-.three-courses {
-    position: relative;
-}
 .container .popular-courses {
     position: relative;
     text-align: center;

@@ -141,6 +141,8 @@
     border-radius: 300px;
     opacity: .3;
     position: absolute;
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: flex-end; */
+    right: 0;
+    /* bottom: 0; */
 }
