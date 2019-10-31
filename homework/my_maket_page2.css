@@ -112,7 +112,6 @@
 
 .good-live .container {
     padding: 10px;
-    
 }
 
 .good-live h2{
@@ -141,8 +140,35 @@
     border-radius: 300px;
     opacity: .3;
     position: absolute;
-    /* display: flex;
-    justify-content: flex-end; */
+    transform: translateX(50%);
     right: 0;
-    /* bottom: 0; */
+}
+
+.record {
+    height: 440px;
+}
+
+.record h3 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+input[type="email"]{
+    width: 492px;
+   height: 61px;
+   border-radius: 10px;
+   text-align: center;
+   font-family: Montserrat;
+   font-size: 24px;
+   line-height: 50px;
+}
+
+.record-field {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.tyu {
+    text-align: center;
+    margin-top: 24px;
 }
