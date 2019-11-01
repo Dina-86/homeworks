@@ -54,6 +54,7 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     height: 760px;
     background-color: #FF8D3B;
     padding: 1px;
+    overflow: hidden;
 }
 
 .popular {
@@ -259,11 +260,16 @@ background: url(./img/Image_advantages.png) no-repeat center center;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
 }
 
 .our-students {
     align-items: center;
     overflow: hidden;
     padding-bottom: 100px;
+    position: relative;
+    height: 702px;
 }
 

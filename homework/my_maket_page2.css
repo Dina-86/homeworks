@@ -112,6 +112,7 @@
 
 .good-live .container {
     padding: 10px;
+    overflow-x: hidden;
 }
 
 .good-live h2{
@@ -131,6 +132,7 @@
     position: absolute;
     margin-left: 0;
     margin-top: 35px;
+    overflow: hidden;
 }
 
 .roll-two {
@@ -142,6 +144,7 @@
     position: absolute;
     transform: translateX(50%);
     right: 0;
+    overflow-x: hidden;
 }
 
 .record {
